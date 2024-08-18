@@ -1,5 +1,3 @@
-// sarcasticMessageGenerator.js
-
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -15,6 +13,3 @@ function generateSarcasticMessage() {
 
     return `${subject} ${verb} ${ending}`;
 }
-
-console.log(generateSarcasticMessage());
-

@@ -26,9 +26,6 @@
             </div>
     </div>
     <main>
-
-       
-
         <div>
             <h1 class="aboutMe">About Me</h1>
         </div>
@@ -55,9 +52,27 @@
                 <li> Remi Pay</li>
             </ul>
         </div>
+        <br>
+        <form action="/submit" method="post">
+            <fieldset class="radio-group">
+                <legend>Wanna hear a joke?</legend>
+                <label>
+                    <input type="radio" name="response" value="yes" required>
+                    Yes
+                </label>
+                <label>
+                    <input type="radio" name="response" value="no" required>
+                    No
+                </label>
+            </fieldset>
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+        
 
     </main>
-    <footer></footer>
+    <footer>Peace, Love & Light</footer>
+    <script src="\script\message.js"></script>
+    <script src="\script\formHandler.js"></script>
 </body>
 
 </html>
