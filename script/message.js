@@ -1,3 +1,5 @@
+// jokeGenerator.js
+
 function getRandomElement(arr) {
     return arr[Math.floor(Math.random() * arr.length)];
 }
@@ -13,3 +15,7 @@ function generateSarcasticMessage() {
 
     return `${subject} ${verb} ${ending}`;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('joke').textContent = generateSarcasticMessage();
+});
