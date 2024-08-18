@@ -93,12 +93,11 @@ a:hover {
     color: brown;
 }
 
-details {
-  cursor: pointer;
+.radio-group {
+  margin-bottom: 20px;
 }
-
-summary {
-  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+.radio-group label {
+  margin-right: 15px;
 }
 
 footer {
